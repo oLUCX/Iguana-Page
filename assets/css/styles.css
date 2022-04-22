@@ -1,0 +1,105 @@
+/* Header */
+header{
+    height: 65px;
+    background-color: black;
+}
+header p{
+    color: white;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 50px;
+    letter-spacing: 2px;    
+}
+/* Imagen grande iguana */
+.imagen{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+.imagen img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* Datos iguana */
+menu {
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 20em; 
+}
+menu p{
+    width: 475px;
+    margin: 0px 10em 0px 0px;
+    color: white;
+    font: normal normal 300 16px 'Raleway';
+    display: inline-block;
+    text-align: left;   
+}
+menu img{
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+    display: inline-block;
+    margin-top: 2.5em;
+}
+/* Caracteristicas */
+section{
+    background-color: #1E1A13;
+    height: 20em;
+    width: auto;
+    margin: 0px;
+}
+section h1{
+    color: white;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    padding-top: 0.9em;
+    font: normal normal 40px 'Raleway';
+}
+section div{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    
+}
+section i{
+    font-size: 70px;
+    display: block;
+}
+section p{
+    font-size: 30px;
+    font: normal normal 25px 'Raleway';
+}
+/* Galeria */
+.galeria {
+    height: 20em;
+    width: auto;
+    background-color: black;
+    padding-top: 1.2em;
+}
+.galeria div{
+    width: auto;
+    display: block;
+}
+.galeria img{
+    width: 500px;
+    height: 300px;
+    margin: 0px 2em;
+}
+/* Footer */
+footer{
+    width: auto;
+    height: 4em;
+    background-color: #1E1A13;
+    text-align: center;
+    color: white;
+    font: normal normal 300 24px 'Raleway';
+}
